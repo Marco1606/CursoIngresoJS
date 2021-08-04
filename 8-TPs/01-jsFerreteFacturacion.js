@@ -51,11 +51,11 @@ function PrecioFinal ()
     numero2 = parseInt(document.getElementById("txtIdPrecioDos").value);
     numero3 = parseInt(document.getElementById("txtIdPrecioTres").value);
     
-    suma = (numero1 + numero2 + numero3);
+    suma = numero1 + numero2 + numero3;
 
-    precioFinal = (suma * 21 / 100);
+    precioFinal = suma * .21;
     
-    suma = (precioFinal + suma);
+    suma = precioFinal + suma;
 
     alert("El precio final es " + suma);
 

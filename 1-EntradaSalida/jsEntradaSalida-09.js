@@ -9,7 +9,7 @@ function mostrarAumento()
 		// Determinar variables.
 		let sueldo
 		let aumento
-		let resultado
+		let nuevoSueldo
 	
 		// Registrar el sueldo como número.
 		sueldo = parseInt(document.getElementById("txtIdSueldo").value);
@@ -18,8 +18,9 @@ function mostrarAumento()
 		aumento = (10 * sueldo) / 100;
 		
 		// Calcular el sueldo total.
-		resultado = sueldo + aumento
-		document.getElementById("txtIdResultado").value = resultado
+		nuevoSueldo = sueldo + aumento
+
+		document.getElementById("txtIdResultado").value = nuevoSueldo
 	
 }   
 

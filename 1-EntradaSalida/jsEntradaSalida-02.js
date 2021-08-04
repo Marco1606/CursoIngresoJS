@@ -5,7 +5,7 @@ function mostrar()
 {
     let dato; // declaro una variable 
 
-	//dato = "juan"; inicializo la variable nombre con la cadena "juan"
+	dato = "juan";  //inicializo la variable nombre con la cadena "juan"
 
 	dato = prompt("ingrese su nombre");
 
